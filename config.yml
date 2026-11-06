@@ -1,0 +1,19 @@
+#SuperAuth Sozlamalari
+settings:
+  min-password-length: 4
+  max-password-length: 16
+  session-timeout-minutes: 10 # IP auto-login vaqti (daqiqa)
+  login-timeout-seconds: 60    # Kirish uchun beriladigan vaqt (soniya)
+
+messages:
+  prefix: "&8[&6SuperAuth&8] "
+  please-register: "&cServerga kirish uchun ro'yxatdan o'ting: &e/register <parol> <parol>"
+  please-login: "&eParolingizni kiriting: &a/login <parol>"
+  register-success: "&aMuvaffaqiyatli ro'yxatdan o'tdingiz! O'yinga xush kelibsiz!"
+  login-success: "&aXush kelibsiz! Tizimga kirdingiz."
+  already-logged-in: "&cSiz allaqachon tizimga girsangiz!"
+  wrong-password: "&cXato parol! Qaytadan urinib ko'ring."
+  passwords-dont-match: "&cKiritilgan parollar bir-biriga mos kelmadi!"
+  password-too-short: "&cParol juda qisqa! Kamida 4 ta belgi bo'lishi kerak."
+  timeout-kick: "&cKirish vaqti tugadi!"
+  session-restored: "&aIP manzilingiz bo'yicha avtomatik tizimga kirdingiz!"

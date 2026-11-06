@@ -1,0 +1,28 @@
+name: SuperAuth
+version: 1.0.0
+main: uz.jigar.superauth.SuperAuth
+api-version: '1.21'
+author: Jigar
+description: Mustaqil va xavfsiz AuthMe muqobili
+commands:
+  register:
+    description: Serverda ro'yxatdan o'tish
+    usage: /register <parol> <parolni_takrorlang>
+  login:
+    description: Serverga kirish
+    usage: /login <parol>
+  l:
+    description: /login uchun qisqa buyruq
+    usage: /l <parol>
+  reg:
+    description: /register uchun qisqa buyruq
+    usage: /reg <parol> <parolni_takrorlang>
+  changepassword:
+    description: Parolni o'zgartirish
+    usage: /changepassword <eski_parol> <yangi_parol>
+  superauth:
+    description: SuperAuth admin buyruqlari
+    permission: superauth.admin
+permissions:
+  superauth.admin:
+    default: op
